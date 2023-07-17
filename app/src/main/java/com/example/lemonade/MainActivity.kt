@@ -134,12 +134,12 @@ class MainActivity : AppCompatActivity() {
 
                 if (lemonSize == 0) {
                     lemonadeState = DRINK
-                } else lemonadeState = SQUEEZE
+                }
             }
 
             DRINK -> {
                 lemonadeState = RESTART
-                lemonSize = -1
+
             }
 
             RESTART -> {
